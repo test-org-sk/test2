@@ -4,7 +4,7 @@ on:
     types: [opened, reopened, ready_for_review]
 jobs:
   notice:
-    uses: test-org-sk/.github/workflows/author-liability.yml@main
+    uses: test-org-sk/.github/.github/workflows/author-liability.yml@main
     with:
       team_slug: dev-team
     secrets: inherit
